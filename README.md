@@ -1,68 +1,59 @@
 📝 Quiz Application
-A Java-based Quiz Application with a user-friendly GUI that allows users to take a multiple-choice quiz on Java programming. The application features a login screen, quiz rules, a timed quiz, and a final score display.
-________________________________________
+A Java-based quiz app with a user-friendly GUI for taking a multiple-choice quiz on Java programming. Features include a login screen, quiz rules, timed questions, lifeline hints, and a score display.
+
 🚀 Features
-✅ Login Screen: Users can enter their name to start the quiz.
-✅ Quiz Rules: Displays rules before starting the quiz.
-✅ Timed Quiz: Each question is time-limited (⏳ 20 seconds per question).
-✅ Multiple-Choice Questions: 10 Java-related MCQs.
-✅ Lifeline Feature: Provides hints by eliminating two incorrect options.
-✅ Score Display: Shows the final score at the end of the quiz.
-✅ User Interface: Interactive GUI built with Java Swing.
-________________________________________
+✅ Login Screen: User input to start the quiz.
+✅ Quiz Rules: Rules before starting.
+✅ Timed Quiz: 20 seconds per question.
+✅ MCQs: 10 Java-related questions.
+✅ Lifeline: Removes 2 wrong options.
+✅ Score Display: Shows final score.
+✅ User Interface: Built with Java Swing.
 🛠️ Technologies Used
 🟡 Java (Swing for GUI)
-🟡 JFrame, JLabel, JButton, JRadioButton, ButtonGroup
+🟡 JFrame, JLabel, JButton, JRadioButton
 🟡 Event Handling (ActionListener)
-________________________________________
 📂 Project Structure
 📁 quiz-app/
 ├── 📂 src/
 │   ├── 📂 quiz/app/
-│   │   ├── 📄 Login.java  (User login screen)
-│   │   ├── 📄 Rules.java  (Quiz rules display)
-│   │   ├── 📄 Quiz.java   (Quiz logic and UI)
-│   │   ├── 📄 Score.java  (Final score screen)
+│   │   ├── 📄 Login.java
+│   │   ├── 📄 Rules.java
+│   │   ├── 📄 Quiz.java
+│   │   ├── 📄 Score.java
 ├── 📂 assets/
-│   ├── 📂 Bg/ (Images for UI)
-├── 📄 README.md  (Project documentation)
-└── 📄 QuizApp.java (Main entry point)
-________________________________________
-📌 Installation & Running the Application
-1️⃣ Clone the repository:
+│   ├── 📂 Bg/
+├── 📄 README.md
+└── 📄 QuizApp.java
+📌 Installation & Running
+1️⃣ Clone the repo:
 git clone https://github.com/your-username/quiz-app.git
 cd quiz-app
 
-2️⃣ Open the project in VS Code:
-•	🖥️ Launch Visual Studio Code.
-•	📂 Open the quiz-app folder by selecting File → Open Folder... and choosing the folder where you cloned the repository.
+2️⃣ Open in VS Code:
+File → Open Folder...
 
-3️⃣ Install Java Extensions in VS Code (if not already installed):
-•	🔍 Go to the Extensions view in VS Code (click on the Extensions icon in the Activity Bar on the side of the window).
-•	📦 Search for "Java Extension Pack" and click Install. This will install: 
-o	Language Support for Java(TM) by Red Hat
-o	Debugger for Java
-o	Java Test Runner
-o	Maven for Java (optional, for Maven projects)
+3️⃣ Install Java Extensions:
+Search for Java Extension Pack and install.
 
-4️⃣ Compile the Java files:
-•	💻 Open the Integrated Terminal in VS Code by selecting Terminal → New Terminal.
-•	🔧 Compile the Java files: 
-•	javac quiz/app/*.java
+4️⃣ Compile the code:
+javac quiz/app/*.java
 
-5️⃣ Run the application:
-•	🚀 In the terminal, run the following command to start the application: 
-•	java quiz.app.Login
-________________________________________
-⚙️ Additional Tips for VS Code Users:
-•	🗂️ Project Structure: Ensure that your src/quiz/app/ directory is recognized as a Java source folder.
-•	🛠️ Debugging: Use the built-in debugging tools in VS Code to set breakpoints and step through your code for easier testing and troubleshooting.
-________________________________________
+5️⃣ Run the app:
+java quiz.app.Login
+
+⚙️ Additional Tips
+🗂️ Ensure src/quiz/app/ is marked as a Java source folder.
+🛠️ Use VS Code's debugger to troubleshoot.
+📸 Screenshots
+🖥️ Login Screen
+🎯 Quiz Interface
+📊 Score Display
 🤝 Contribution
-💡 Contributions are welcome! Feel free to fork this repository and submit a pull request.
-________________________________________
+💡 Feel free to fork and submit pull requests.
+
 📜 License
-📝 This project is licensed under the MIT License.
-______________________________________
+MIT License.
+
+📝 Contract
 Gmail:munnaofficialnubtk@gmail.com
-github Link:

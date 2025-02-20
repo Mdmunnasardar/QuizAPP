@@ -46,7 +46,6 @@ public class Score extends JFrame {
         imagee.setBounds(0,0,750,550);
         add(imagee);
 
-
        setSize(750,550);
        setLocation(400,150);
        setLayout(null);

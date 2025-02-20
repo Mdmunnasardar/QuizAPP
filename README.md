@@ -58,11 +58,6 @@ ________________________________________
 •	🗂️ Project Structure: Ensure that your src/quiz/app/ directory is recognized as a Java source folder.
 •	🛠️ Debugging: Use the built-in debugging tools in VS Code to set breakpoints and step through your code for easier testing and troubleshooting.
 ________________________________________
-📸 Screenshots:
-🖥️ Login Screen
-🎯 Quiz Interface
-📊 Score Display
-________________________________________
 🤝 Contribution
 💡 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 ________________________________________

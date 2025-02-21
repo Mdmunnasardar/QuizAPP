@@ -25,17 +25,15 @@ A Java-based quiz app with a user-friendly GUI for taking a multiple-choice quiz
 
 ### 📂 **Project Structure**
 ```
-📁 quiz-app/
-├── 📂 src/
-│   ├── 📂 quiz/app/
-│   │   ├── 📄 Login.java
-│   │   ├── 📄 Rules.java
-│   │   ├── 📄 Quiz.java
-│   │   ├── 📄 Score.java
-├── 📂 assets/
-│   ├── 📂 Bg/
+📁 QUIZAPP/
+├── 📂 Bg   
+├── 📂 quiz/app/
+│   ├── 📄 Login.java
+│   ├── 📄 Rules.java
+│   ├── 📄 Quiz.java
+│   ├── 📄 Score.java
 ├── 📄 README.md
-└── 📄 QuizApp.java
+
 ```
 
 ---
@@ -43,8 +41,7 @@ A Java-based quiz app with a user-friendly GUI for taking a multiple-choice quiz
 ### 📌 **Installation & Running**
 
 1️⃣ **Clone the repo**:  
-   `git clone https://github.com/your-username/quiz-app.git`  
-   `cd quiz-app`
+   `git clone https://github.com/Mdmunnasardar/QuizAPP.git`  
 
 2️⃣ **Open in VS Code**:  
    File → Open Folder...
@@ -84,4 +81,5 @@ MIT License.
 ---
 
 ### 📝 **Contract**
-Gmail:munnaofficialnubtk@gmail.com
+Gmail: munnaofficialnubtk@gmail.com
+Github: https://github.com/Mdmunnasardar

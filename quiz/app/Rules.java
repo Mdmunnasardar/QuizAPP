@@ -28,7 +28,7 @@ public class Rules extends JFrame implements ActionListener {
                 "<html>" +
                         "1. Open to all Java enthusiasts." + "<br><br>" +
                         "2. 10 multiple-choice questions." + "<br><br>" +
-                        "3. 20 seconds per question." + "<br><br>" +
+                        "3. 15 seconds per question." + "<br><br>" +
                         "4. No external resources or code execution." + "<br><br>" +
                         "5. No collaboration or assistance." + "<br><br>" +
                         "6. Highest scores may be featured!" + "<br><br>" +

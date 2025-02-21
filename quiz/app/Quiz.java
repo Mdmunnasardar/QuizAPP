@@ -101,6 +101,18 @@ public class Quiz extends JFrame implements ActionListener {
         questions[9][2] = "/* This is a comment */";
         questions[9][3] = "# This is a comment";
         questions[9][4] = "++ This is a comment";
+
+        answers[0][1] = "String";
+        answers[1][1] = "false";
+        answers[2][1] = "int[] arr = new int[10];";
+        answers[3][1] = "Depends on the system";
+        answers[4][1] = "integer";
+        answers[5][1] = "final";
+        answers[6][1] = "1 bit";
+        answers[7][1] = "equals()";
+        answers[8][1] = "new ClassName();";
+        answers[9][1] = "// This is a comment";
+        
         // Other questions go here...
 
         opt1 = new JRadioButton();

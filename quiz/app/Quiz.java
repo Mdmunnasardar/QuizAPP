@@ -23,24 +23,24 @@ public class Quiz extends JFrame implements ActionListener {
 
     Quiz(String name) {
         this.name = name;
-        setBounds(50, 0, 1440, 850);
+        setBounds(50, 0, 1024, 650); // Slightly bigger window to fit the buttons
         getContentPane().setBackground(Color.WHITE);
         setUndecorated(true);
         setLayout(null);
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Bg/quiz.png"));
         JLabel image = new JLabel(i1);
-        image.setBounds(0, 0, 1440, 392);
+        image.setBounds(0, 0, 1024, 300); // Adjusted image size
         add(image);
 
         qno = new JLabel();
-        qno.setBounds(100, 450, 50, 30);
-        qno.setFont(new Font("Tahoma", Font.PLAIN, 24));
+        qno.setBounds(100, 330, 50, 30);
+        qno.setFont(new Font("Tahoma", Font.PLAIN, 18)); // Adjusted font size
         add(qno);
 
         question = new JLabel();
-        question.setBounds(150, 450, 900, 30);
-        question.setFont(new Font("Tahoma", Font.PLAIN, 24));
+        question.setBounds(150, 330, 800, 30); // Adjusted position and size
+        question.setFont(new Font("Tahoma", Font.PLAIN, 18)); // Adjusted font size
         add(question);
 
         questions[0][0] = "Which of the following is not a primitive data type in Java?";
@@ -48,7 +48,6 @@ public class Quiz extends JFrame implements ActionListener {
         questions[0][2] = "double";
         questions[0][3] = "String";
         questions[0][4] = "char";
-
         questions[1][0] = "Which of the following is the default value of a boolean in Java?";
         questions[1][1] = "false";
         questions[1][2] = "true";
@@ -102,29 +101,30 @@ public class Quiz extends JFrame implements ActionListener {
         questions[9][2] = "/* This is a comment */";
         questions[9][3] = "# This is a comment";
         questions[9][4] = "++ This is a comment";
+        // Other questions go here...
 
         opt1 = new JRadioButton();
-        opt1.setBounds(170, 520, 700, 30);
+        opt1.setBounds(170, 400, 700, 30); // Adjusted position and size
         opt1.setBackground(Color.WHITE);
-        opt1.setFont(new Font("Dialog", Font.PLAIN, 20));
+        opt1.setFont(new Font("Dialog", Font.PLAIN, 16)); // Adjusted font size
         add(opt1);
 
         opt2 = new JRadioButton();
-        opt2.setBounds(170, 560, 700, 30);
+        opt2.setBounds(170, 440, 700, 30); // Adjusted position and size
         opt2.setBackground(Color.WHITE);
-        opt2.setFont(new Font("Dialog", Font.PLAIN, 20));
+        opt2.setFont(new Font("Dialog", Font.PLAIN, 16)); // Adjusted font size
         add(opt2);
 
         opt3 = new JRadioButton();
-        opt3.setBounds(170, 600, 700, 30);
+        opt3.setBounds(170, 480, 700, 30); // Adjusted position and size
         opt3.setBackground(Color.WHITE);
-        opt3.setFont(new Font("Dialog", Font.PLAIN, 20));
+        opt3.setFont(new Font("Dialog", Font.PLAIN, 16)); // Adjusted font size
         add(opt3);
 
         opt4 = new JRadioButton();
-        opt4.setBounds(170, 640, 700, 30);
+        opt4.setBounds(170, 520, 700, 30); // Adjusted position and size
         opt4.setBackground(Color.WHITE);
-        opt4.setFont(new Font("Dialog", Font.PLAIN, 20));
+        opt4.setFont(new Font("Dialog", Font.PLAIN, 16)); // Adjusted font size
         add(opt4);
 
         groupoptions = new ButtonGroup();
@@ -134,27 +134,26 @@ public class Quiz extends JFrame implements ActionListener {
         groupoptions.add(opt4);
 
         next = new JButton("Next");
-        next.setBounds(700, 750, 200, 30);
-        next.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        next.setBounds(550, 560, 120, 30); // Adjusted position and size to make space
+        next.setFont(new Font("Tahoma", Font.PLAIN, 16)); // Adjusted font size
         next.setBackground(new Color(22, 99, 54));
         next.setForeground(Color.WHITE);
         next.addActionListener(this);
         add(next);
 
         lifeline = new JButton("Help");
-        lifeline.setBounds(930, 750, 200, 30);
-        lifeline.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        lifeline.setBounds(680, 560, 120, 30); // Adjusted position and size to make space
+        lifeline.setFont(new Font("Tahoma", Font.PLAIN, 16)); // Adjusted font size
         lifeline.setBackground(new Color(22, 99, 54));
         lifeline.setForeground(Color.WHITE);
         lifeline.addActionListener(this);
         add(lifeline);
 
         submit = new JButton("Submit");
-        submit.setBounds(1150, 750, 200, 30);
+        submit.setBounds(810, 560, 120, 30); // Adjusted position and size to make space
         submit.setForeground(Color.BLACK);
-        submit.setFont(new Font("Tahoma", Font.PLAIN, 18));
+        submit.setFont(new Font("Tahoma", Font.PLAIN, 16)); // Adjusted font size
         submit.setBackground(new Color(255, 215, 0));
-
         submit.addActionListener(this);
         submit.setEnabled(false);
         add(submit);
@@ -220,12 +219,12 @@ public class Quiz extends JFrame implements ActionListener {
 
         String time = "Time left - " + timer + " seconds"; // 15
         g.setColor(Color.RED);
-        g.setFont(new Font("Tahoma", Font.BOLD, 25));
+        g.setFont(new Font("Tahoma", Font.BOLD, 20)); // Adjusted font size
 
         if (timer > 0) {
-            g.drawString(time, 1100, 500);
+            g.drawString(time, 720, 330); // Adjusted position
         } else {
-            g.drawString("Times up!!", 1100, 500);
+            g.drawString("Times up!!", 720, 330); // Adjusted position
         }
 
         timer--; // 14

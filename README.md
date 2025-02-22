@@ -8,7 +8,7 @@ A Java-based quiz app with a user-friendly GUI for taking a multiple-choice quiz
 ### 🚀 **Features**
 - ✅ **Login Screen**: User input to start the quiz.
 - ✅ **Quiz Rules**: Rules before starting.
-- ✅ **Timed Quiz**: 20 seconds per question.
+- ✅ **Timed Quiz**: 15 seconds per question.
 - ✅ **MCQs**: 10 Java-related questions.
 - ✅ **Lifeline**: Removes 2 wrong options.
 - ✅ **Score Display**: Shows final score.
@@ -82,4 +82,5 @@ MIT License.
 
 ### 📝 **Contract**
 Gmail: munnaofficialnubtk@gmail.com
+
 Github: https://github.com/Mdmunnasardar

@@ -63,13 +63,6 @@ A Java-based quiz app with a user-friendly GUI for taking a multiple-choice quiz
 
 ---
 
-### 📸 **Screenshots**
-- 🖥️ Login Screen  
-- 🎯 Quiz Interface  
-- 📊 Score Display  
-
----
-
 ### 🤝 **Contribution**
 💡 Feel free to fork and submit pull requests.
 
